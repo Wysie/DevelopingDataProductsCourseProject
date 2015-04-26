@@ -35,9 +35,9 @@ running$agegroup <- gsub("X", "", running$agegroup)
 running$time <- sapply(running$time, as.numeric)
 running$agegroup <- sapply(running$agegroup, as.numeric)
 
-goldScoreElite <- 85
-goldScore <- 81
-silverScore <- 71
+goldScoreElite <- 90
+goldScore <- 85
+silverScore <- 75
 passIncentiveScore <- 61
 passScore <- 51
 
